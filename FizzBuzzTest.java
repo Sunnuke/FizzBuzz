@@ -1,5 +1,5 @@
 public class FizzBuzzTest {
-    public static void fizzBuzzTest(String[] args) {
+    public static void main(String[] args) {
         FizzBuzz str = new FizzBuzz();
         String fb1 = str.fizzBuzz(6);
         String fb2 = str.fizzBuzz(10);
