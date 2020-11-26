@@ -1,3 +1,4 @@
+
 public class FizzBuzz {
     public String fizzBuzz(int num) {
         if (num % 3 == 0) {
@@ -17,7 +18,7 @@ public class FizzBuzz {
             }
         }
         else {
-            String strnum = new String(num);
+            String strnum = Integer.toString(num);
             return strnum;
         }
     }
